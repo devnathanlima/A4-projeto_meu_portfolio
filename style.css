@@ -1,0 +1,26 @@
+body {
+  background-color: #161a1d;
+}
+
+.text-img {
+  color: rgb(0, 0, 0);
+  font-size: 1.3rem;
+  padding: 15px 0;
+  font-family: monospace;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+}
+
+.container-content {
+  background-color: #ffffff;
+}
+
+.img-fluid {
+  transition: transform 2s;
+}
+
+.img-fluid:hover {
+  transform: scale(0.85);
+  cursor: pointer;
+  border-radius: 20px;
+}
